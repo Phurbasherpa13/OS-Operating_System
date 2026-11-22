@@ -22,7 +22,24 @@ In this lab, we'll understand the concept of PID and practically demonstrate how
     # Monitor the process for PID
     ps aux | grep 'task1'
 
+## Evidence
+-
+# Task 2: Process Identity (PID & PPID)
+## Concept
+When we talk about linux system, each process is assigned with PID as we have already seen in the above task, but there also exist parent process ID (PPID) which is the process that created the child process (in most cases PPID is our shell)
 
+`PPID : It is a ID for process which created a child process.`
+
+## Commands
+    # Compile the source code
+    gcc task2_identity.c -o task2
+
+    # Run the program in the background
+    ./task2 &
+
+    # Verify it
+    ps -p [PID] -o pid,ppid,command
+    
 
 # Author 
 - Phurba Sherpa
