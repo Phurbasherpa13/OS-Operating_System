@@ -7,3 +7,8 @@ In this repository, it content learning lecuture and practical lab for Programmi
 3. Understanging How notion of programming langugae i.e. C connects with core operating system concepts.
 
 ## Quick Start 
+    #Clone the repo 
+    git clone https://github.com/Phurbasherpa13/OS-Operating_System.git
+
+    #cd into working directory
+    cd OS-Operating_System
