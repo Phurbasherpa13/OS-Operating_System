@@ -21,3 +21,8 @@ In this lab, we'll understand the concept of PID and practically demonstrate how
 
     # Monitor the process for PID
     ps aux | grep 'task1'
+
+
+
+# Author 
+- Phurba Sherpa

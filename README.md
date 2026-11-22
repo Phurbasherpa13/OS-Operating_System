@@ -12,3 +12,6 @@ In this repository, it content learning lecuture and practical lab for Programmi
 
     #cd into working directory
     cd OS-Operating_System
+# Author 
+ Name - Phurba Sherpa
+Module Leader - Rupak Rajbansi
